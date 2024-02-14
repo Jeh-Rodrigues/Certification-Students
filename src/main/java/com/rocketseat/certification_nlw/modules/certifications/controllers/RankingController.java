@@ -11,6 +11,7 @@ import com.rocketseat.certification_nlw.modules.certifications.useCases.Top10Ran
 import com.rocketseat.certification_nlw.modules.students.entities.CertificationStudentEntity;
 import com.rocketseat.certification_nlw.modules.students.repositories.CertificationStudentRepository;
 
+@SuppressWarnings("unused")
 @RestController
 @RequestMapping("/ranking")
 public class RankingController {

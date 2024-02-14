@@ -19,6 +19,7 @@ import com.rocketseat.certification_nlw.modules.students.entities.StudentEntity;
 import com.rocketseat.certification_nlw.modules.students.repositories.CertificationStudentRepository;
 import com.rocketseat.certification_nlw.modules.students.repositories.StudentRepository;
 
+@SuppressWarnings("unused")
 @Service
 public class StudentCertificationAnswersUseCase {
 
@@ -34,6 +35,7 @@ public class StudentCertificationAnswersUseCase {
     @Autowired
     private VerifyIfHasCertificationUseCase verifyIfHasCertificationUseCase;
 
+    @SuppressWarnings("null")
     public CertificationStudentEntity execute(StudentCertificationAnswerDTO dto) throws Exception {
 
         var hasCertification = this.verifyIfHasCertificationUseCase

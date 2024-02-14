@@ -10,10 +10,12 @@ import javax.sql.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
+@SuppressWarnings("unused")
 public class CreateSeed {
 
     private final JdbcTemplate jdbcTemplate;
 
+    @SuppressWarnings("null")
     public CreateSeed(DataSource dataSource) {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }

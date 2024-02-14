@@ -13,6 +13,7 @@ import com.rocketseat.certification_nlw.modules.students.entities.CertificationS
 import com.rocketseat.certification_nlw.modules.students.useCases.StudentCertificationAnswersUseCase;
 import com.rocketseat.certification_nlw.modules.students.useCases.VerifyIfHasCertificationUseCase;
 
+@SuppressWarnings("unused")
 @RestController
 @RequestMapping("/students")
 public class StudentController {
